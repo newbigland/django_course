@@ -1,0 +1,47 @@
+body {
+    background-image: url(../images/index-bg.jpg);
+    background-position: center 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size:cover ;
+    -moz-background-size: cover;
+    background-color: #eee;
+}
+
+ /* 问题：怎样让表单在手机屏幕下仍能显示？*/
+.form-login {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    position:absolute;
+    top:50px;
+    right:400px;
+    width:330px;
+}
+
+.form-login .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-login .form-control:focus {
+    z-index: 2;
+}
+
+.form-login input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-login input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
